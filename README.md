@@ -26,6 +26,7 @@ Print the following in new line as a string
 
 ### Sample Output 1
 29
+
 14/29
 
 #### Justification 
@@ -50,6 +51,7 @@ Therefore, Answer of (1) = 29 , Answer of (2) = 14/29
 
 ### Sample Output 2
 108
+
 52/108
 
 #### Justification 
@@ -74,6 +76,7 @@ Therefore, Answer of (1) = 108 , Answer of (2) = 52/108
 
 ### Sample Output 3
 773
+
 372/773
 
 #### Justification
