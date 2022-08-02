@@ -6,7 +6,7 @@ class AttendClass():
         
     def ways_to_attend_classes(self,N): 
         """
-        Function to compute total number of ways to attend the classes.
+        Function to compute valid number of ways to attend the classes.
         A valid way to attend the classes is where classes are NOT missed for four or more consecutive days
         """
         if N<4:                    
