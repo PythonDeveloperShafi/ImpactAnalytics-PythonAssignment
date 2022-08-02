@@ -1,5 +1,7 @@
 # SOLUTION
-
+"""
+The problem is solved using the dynamic programming approach with time complexity of O(n)
+"""
 class AttendClass():
     def __init__(self):
         self.mapping = {}

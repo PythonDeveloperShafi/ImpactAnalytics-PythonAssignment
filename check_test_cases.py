@@ -6,7 +6,7 @@ class TestSolution(unittest.TestCase):
     def test_solution(self):
         with open("./test_cases/cases.txt") as fp:
             test_cases = [line.rstrip('\n') for line in fp]
-        #test_cases = open("./test_case/dev.txt").read().splitlines()
+            
         for case in test_cases:
             inp, ans1, ans2 = case.split(" ")  
             N = int(inp)

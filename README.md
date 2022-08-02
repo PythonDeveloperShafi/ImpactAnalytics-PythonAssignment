@@ -17,8 +17,9 @@ An integer N representing number of days in the academic year
 
 ### Output
 Print the following in new line as a string
-1 The number of ways to attend classes over N days
-2 The probability that you will miss your graduation ceremony
+
+1. The number of ways to attend classes over N days
+2. The probability that you will miss your graduation ceremony
 
 ### Sample Input 1
 5
