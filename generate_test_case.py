@@ -1,4 +1,3 @@
-from utils import total_ways, invalid_ways, ways_with_Absent_last
 import re
 
 def total_ways(N):
@@ -35,14 +34,27 @@ def generate_test_case(N):
     valid = [x for x in ways if x not in invalid]
     absent = ways_with_Absent_last(valid)
 
-    print(f"Total Number of ways to attend classes over {N} days = {len(valid)}")
-    print(f"Number of ways in which the graduation ceremony will be missed = {len(absent)}")
+    # print(f"Total Number of ways to attend classes over {N} days = {len(valid)}")
+    # print(f"Number of ways in which the graduation ceremony will be missed = {len(absent)}")
 
-    print(f"Ways to attend classes over {N} days:")
-    print(*ways, sep = ", ")
+    # print(f"Total number of Ways to attend classes over {N} days:")
+    # print(*ways, sep = ", ")
+    # print(f"count = {len(ways)}")
 
-    print("Ways in which the graduation ceremony will be missed i.e. Class is missed on last day:")
-    print(*absent, sep = ", ")
+    # print(f"Invalid Ways to attend classes over {N} days:")
+    # print(*invalid, sep = ", ")
+    # print(f"count = {len(invalid)}")
+
+    # print(f"Valid Ways to attend classes over {N} days:")
+    # print(*valid, sep = ", ")
+    # print(f"count = {len(valid)}")
+
+    # print("Ways in which the graduation ceremony will be missed i.e. Class is missed on last day:")
+    # print(*absent, sep = ", ")
+    # print(f"count = {len(absent)}")
+
+    print(f"Therefore, Answer of (1) = {len(valid)} , Answer of (2) = {len(absent)}/{len(valid)}")
+
 
 N = int(input())
 generate_test_case(N)
